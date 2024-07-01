@@ -1,0 +1,27 @@
+* OPLS Bromoform toppar file in CHARMM format
+*
+
+! Bromoform OPLS parameters translated into CHARMM format for the following work:
+! Karnes, John. J. & Benjamin, I. Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid
+! Chloroform and Bromoform. J Phys Chem B 125, 3629–3637 (2021).
+! https://doi.org/10.1021/acs.jpcb.0c10407
+
+AUTOGENERATE ANGLE DIHE
+
+MASS  -1  HBM        1.00800 H ! Bromoform Hydrogen
+MASS  -1  BRBM      79.90400 Br ! Bromoform Bromine
+MASS  -1  CBM       12.01100 C ! Bromoform Carbon
+
+RESI BRF          0.000
+GROUP
+ATOM CBR  CBM     0.1063
+ATOM BR1  BRBM   -0.099
+ATOM BR2  BRBM   -0.099
+ATOM BR3  BRBM   -0.099
+ATOM HCB  HBM     0.1907
+
+BOND CBR BR1 CBR BR2 CBR BR3 CBR HCB	
+
+END
+
+

@@ -1,0 +1,54 @@
+* Bromoform
+*
+
+ATOMS
+MASS  -1  HBM        1.00800 !
+MASS  -1  BRBM      79.904 !
+MASS  -1  CBM       12.01100 !
+
+BONDS
+!
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mole/A**2
+!b0: A
+!
+!atom-type   atom-type   Kb   b0
+CBM   BRBM   490.0      1.945 
+CBM   HBM    680.0      1.090  
+
+ANGLES
+!
+!V(angle) = Ktheta(Theta - Theta0)**2
+!
+!V(Urey-Bradley) = Kub(S - S0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!Kub: kcal/mole/A**2 (Urey-Bradley)
+!S0: A
+!
+!atom-type atom-type atom-type    Kθ   θ0
+BRBM  CBM  BRBM    156.0    111.7
+HBM   CBM  BRBM    102.0    107.6
+
+
+DIHEDRALS
+
+IMPROPERS
+
+NONBONDED nbxmod  5 atom cdiel fshift vatom vdistance vfswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14faCBR 1.0 wmin 1.5
+!
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6]
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j)
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j
+!
+!atom  ignored    epsilon      Rmin/2   ignored   eps,1-4       Rmin/2,1-4
+!
+CBM    0.0    -0.066     1.9643  ! 
+BRBM   0.0    -0.047     1.9475  !
+HBM    0.0    -0.030     1.4031  !
+
+END
