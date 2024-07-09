@@ -27,6 +27,8 @@ This project offers sample codes for applying multiple analyses to trajectory da
 1. Sample code:
    - `Bromoform0.2MPc_soapify_example.py`
      - Convert the xyz coordinate of bromoform molecules into SOAP vectors and apply dimensionality reduction and clustering analysis
+   - `MSD_overlapping_window_Bromoform0.1MPcHundredFs.ipynb`
+     - Apply overlapping time window method to calculate MSD and diffusion coefficient 
      
 2. Topology and parameter files:
    - `bromoform_opls_charmm_gui_v02.rtf`
