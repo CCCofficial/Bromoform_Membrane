@@ -43,13 +43,11 @@ This work is funded by the National Science Foundation (NSF) grant No. DBI-15482
 Disclaimer: Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
 
 ## Citations
-The bromform parameter file is generated based on the following paper:
+- The bromform parameter file is generated based on the following paper:
+J. J. Karnes, I. Benjamin. "Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid Chloroform and Bromoform." *Journal of Physical Chemistry B*, 2021, 125, 3629–3637. DOI: [10.1021/acs.jpcb.0c10407](https://doi.org/10.1021/acs.jpcb.0c10407).
 
-J. J. Karnes, I. Benjamin. "Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid Chloroform and Bromoform." *Journal of Physical Chemistry B*, 2021, 125, 3629–3637. DOI: [10.1021/acs.jpcb.0c10407](https://doi.org/10.1021/acs.jpcb.0c10407)
 
-
-The SOAP analysis are carried out based on the following papers:
-
+- The SOAP analysis are carried out based on the following papers:
 1. A. P. Bartók, R. Kondor, G. Csányi. "On Representing Chemical Environments." *Physical Review B*, 2013, 87(18), 184115. DOI: [10.1103/PhysRevB.87.184115](https://doi.org/10.1103/PhysRevB.87.184115).
 
 2. A. Gardin, C. Perego, G. Doni, G. M. Pavan. "Classifying Soft Self-Assembled Materials via Unsupervised Machine Learning of Defects." *Communications Chemistry*, 2022, 5(1), 82. DOI: [https://doi.org/10.1038/s42004-022-00699-z](https://doi.org/10.1038/s42004-022-00699-z).
