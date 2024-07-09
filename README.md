@@ -60,7 +60,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any questions or issues, please open an issue in this repository or contact:
-- Kevin Jose Cheng: kjcheng2@illinois.edu
+- Kevin Jose Cheng: kevin.jose.cheng@ibm.com
 - Jie Shi: shijie@ibm.com
 - Taras Pogorelov: pogorelo@illinois.edu
 - Sara Capponi: sara.capponi@ibm.com
