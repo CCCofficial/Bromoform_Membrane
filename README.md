@@ -1,7 +1,7 @@
 # Bromoform_Membrane
 
 ## Project Overview
-This project offers sample codes for applying multiple analyses to trajectory data obtained from Molecular Dynamics simulations of bromoform molecules. Also included are the bromoform topology and parameter files in CHARMM format, available for download.
+This project offers sample codes for applying multiple analyses to trajectory data obtained from Molecular Dynamics (MD) simulations of bromoform molecules. Also included are the bromoform topology and parameter files in CHARMM format, available for download and use in MD simulation.
 
 
 ## Table of Contents
