@@ -3,14 +3,6 @@
 ## Project Overview
 This project offers sample code for applying SOAP analysis to trajectory data obtained from Molecular Dynamics simulations of bromoform molecules. Also included are the bromoform topology and parameter files in CHARMM format, available for download.
 
-The
-J. J. Karnes, I. Benjamin. "Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid Chloroform and Bromoform." *Journal of Physical Chemistry B*, 2021, 125, 3629–3637. DOI: [10.1021/acs.jpcb.0c10407](https://doi.org/10.1021/acs.jpcb.0c10407).
-￼
-￼
-￼
-￼
-￼
-
 
 ## Table of Contents
 - [Installation](#installation)
@@ -53,7 +45,7 @@ Disclaimer: Any opinions, findings and conclusions or recommendations expressed 
 ## Citations
 The bromform parameter file is generated based on the following paper:
 
-J. J. Karnes, I. Benjamin. "Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid Chloroform and Bromoform." Journal of Physical Chemistry B, 2021, 125, 3629–3637. DOI: 10.1021/acs.jpcb.0c10407.
+J. J. Karnes, I. Benjamin. "Deconstructing the Local Intermolecular Ordering and Dynamics of Liquid Chloroform and Bromoform." *Journal of Physical Chemistry B*, 2021, 125, 3629–3637. DOI: [10.1021/acs.jpcb.0c10407](https://doi.org/10.1021/acs.jpcb.0c10407)
 
 
 The SOAP analysis are carried out based on the following papers:
@@ -70,5 +62,5 @@ This project is licensed under the MIT License.
 For any questions or issues, please open an issue in this repository or contact:
 - Kevin Jose Cheng: kjcheng2@illinois.edu
 - Jie Shi: shijie@ibm.com
+- Taras Pogorelov: pogorelo@illinois.edu
 - Sara Capponi: sara.capponi@ibm.com
-
